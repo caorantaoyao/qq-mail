@@ -1,0 +1,28 @@
+{
+  "name": "qq-mail",
+  "version": "0.1.0+codex.20260630071910",
+  "description": "Control QQ Mail from Codex through a local IMAP/SMTP MCP server.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "QQ Mail",
+    "shortDescription": "Read, search, send, move, and delete QQ Mail messages.",
+    "longDescription": "QQ Mail adds a local MCP server that connects to QQ Mail by IMAP and SMTP. It can list folders, search and read mail, send messages, mark read or unread, move, copy, delete, and append draft/archive messages.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Email",
+      "MCP",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "\u67e5\u770b\u6211\u7684 QQ \u90ae\u7bb1\u6536\u4ef6\u7bb1",
+      "\u7528 QQ \u90ae\u7bb1\u53d1\u9001\u4e00\u5c01\u90ae\u4ef6",
+      "\u641c\u7d22 QQ \u90ae\u7bb1\u91cc\u7684\u672a\u8bfb\u90ae\u4ef6"
+    ],
+    "brandColor": "#18A058"
+  },
+  "mcpServers": "./.mcp.json"
+}
