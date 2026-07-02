@@ -5,7 +5,7 @@
       "args": ["./mcp/qq-mail-mcp/server.py"],
       "env": {
         "QQ_MAIL_ENV_FILE": "/Users/bytedance/novels/qq-mail-mcp/.env",
-        "QQ_MAIL_USER": "caoran.taoyao@qq.com",
+        "QQ_MAIL_USER": "2187326188@qq.com",
         "QQ_MAIL_IMAP_HOST": "imap.qq.com",
         "QQ_MAIL_IMAP_PORT": "993",
         "QQ_MAIL_SMTP_HOST": "smtp.qq.com",

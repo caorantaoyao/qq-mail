@@ -5,6 +5,7 @@
 ## 内容
 
 - `mcp/qq-mail-mcp/server.py`：本地 MCP 服务端实现
+- `mcp/qq-mail-mcp/scripts/smoke_mcp.py`：MCP 冒烟验证脚本
 - `skills/qq-mail/SKILL.md`：Codex skill 说明
 - `.codex-plugin/plugin.json`：插件清单
 - `.mcp.json`：MCP 配置
